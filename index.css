@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Gobold Bold";
+        src: url("/fonts/Gobold Bold.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "Gobold Hollow Bold";
+        src: url("/fonts/Gobold Hollow Bold.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "Gobold Hollow";
+        src: url("/fonts/Gobold Hollow.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "LEMONMILK";
+        src: url("/fonts/LEMONMILK-Regular.woff") format("woff")
+    }
+}
