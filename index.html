@@ -6,14 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="bg-yellow-900">
+  <body class="bg-brown">
     <div id="app">
-      <div class="flex">
-        <img src="images/logo.svg" class="absolute left-[20vw] m-5 w-20 h-20">
-        <svg xmlns="http://www.w3.org/2000/svg" class="absolute text-white right-[20vw] m-9 h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </div>
+      <img src="images/logo.svg" class="absolute left-[20vw] m-5 w-20 h-20">
       <div class="flex justify-center p-[20vh]">
         <div class="text-white text-[25vh] leading-none font-GoboldBold">
           <div class="relative z-20">
@@ -29,61 +24,66 @@
           <img class="absolute top-[10vh] right-[20vw] w-[50vh] pr-[2vw] z-0" src="images/icecream.png">
         </div>
       </div>
-      <div class="bg-white w-[100vw] max-w-[100%] h-[70vh] border-t-[11vh] border-yellow-800 mt-[30vh]">
+      <div class="bg-white w-[100vw] max-w-[100%] h-[90vh] border-t-[11vh] border-light-brown mt-[30vh]">
         <div class="text-9xl text-white font-GoboldHollow -mt-48">THE PROBLEM</div>
         <div class="flex">
-          <div class="text-3xl font-serif mt-16 p-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales semper odio. Suspendisse massa dui, consectetur id scelerisque a, cursus quis lorem. Integer dapibus rutrum neque, ac iaculis purus maximus vel. Vivamus pellentesque felis tortor, ut lacinia est consequat a. Pellentesque dapibus nisl at massa lobortis auctor. Phasellus pharetra ipsum a nulla cursus consequat. Fusce ornare dui at orci vulputate, sit amet sodales justo scelerisque. Integer condimentum nec sem rutrum blandit. Ut porta massa eget commodo rutrum. Suspendisse velit sem, commodo a pellentesque eget, luctus eu lorem. Aenean euismod arcu arcu, cursus pulvinar massa cursus at. Suspendisse libero lorem, dapibus vitae placerat in, posuere sit amet neque.</div>
-          <video class="mt-16 pt-28 pr-28 w-[28vw] h-[28vw]" width="320" height="100" autoplay muted>
-            <source id="video1" src="videos/Ice Cream Video.mp4" type="video/mp4">
+          <div class="text-4xl font-serif mt-36 p-28">My school is trying to determine the amount of students that like chocolate ice cream to see whether or not they should add chocolate ice cream to the CCA (College and Career Academy) lunch lines. (Unfortunately, my school is not actually planning on adding chocolate ice cream to the lunch lines; this was just a made-up scenario for my group project in AP Statistics)</div>
+          <video class="mt-28 pt-28 pr-28 w-[30vw] h-[30vw]" width="320" height="100" autoplay muted>
+            <source id="video1" src="videos/CCA.mp4" type="video/mp4">
             There was an error loading the video
           </video>
         </div>
       </div>
-      <div class="h-[200vh]">
-
+      <div class="h-[250vh]">
         <video id="video2" class="sticky top-0 w-[100vw] max-w-[100%] h-[100vh]" width="320" height="100" muted>
-          <source src="videos/Ice Cream Video.mp4" type="video/mp4">
+          <source src="videos/Prediction.mp4" type="video/mp4">
           There was an error loading the video
         </video>
       </div>
-      <div class="bg-yellow-800 w-[100vw] max-w-[100%] h-[25vh] mb-48">
+      <div class="bg-light-brown w-[100vw] max-w-[100%] h-[25vh] mb-48">
         <div class="text-[200px] text-white font-GoboldHollow pt-12">CONDITIONS</div>
       </div>
       <div>
         <div class="bg-white w-[80vw] h-[70vh] my-24">
           <div class="text-8xl font-LEMONMILK p-14 pt-32">RANDOMNESS</div>
-          <div class="text-3xl font-serif pl-14">test</div>
-          <div class="float-right -mr-16 mt-16 w-96 h-96 bg-yellow-800"></div>
+          <div class="text-3xl font-serif pl-14 pr-96">In order to construct a confidence interval, we must make sure our sample if random. To do this, we went around during lunch and used tables as clusters and randomly selected tables to collect opinions from. The advantage of collecting our sample from the lunches is that they are representative of the whole school, containing all grade levels.</div>
+          <div class="float-right -mr-16 mt-16 w-96 h-96 bg-light-brown">
+            <video class="w-auto shadow-xl" width="320" height="100" autoplay muted>
+              <source id="video1" src="videos/Sampling.mp4" type="video/mp4">
+              There was an error loading the video
+            </video>
+          </div>
         </div>
 
         <div class="bg-white text-right w-[80vw] h-[70vh] my-48 ml-[19.1vw]">
           <div class="text-8xl font-LEMONMILK p-14 pt-32">INDEPENDENCE</div>
-          <div class="text-3xl font-serif pr-14">test</div>
-          <div class="float-left -ml-16 mt-16 w-96 h-96 bg-yellow-800"></div>
+          <div class="text-3xl font-serif pr-14 pl-96">test</div>
+          <div class="float-left -ml-16 mt-16 w-96 h-96 bg-light-brown shadow-xl"></div>
         </div>
 
         <div class="bg-white w-[80vw] h-[70vh] my-24">
           <div class="text-8xl font-LEMONMILK p-14 pt-32">NORMALITY</div>
-          <div class="text-3xl font-serif pl-14">test</div>
-          <div class="float-right -mr-16 mt-16 w-96 h-96 bg-yellow-800"></div>
+          <div class="text-3xl font-serif pl-14 pr-96">test</div>
+          <div class="float-right -mr-16 mt-16 w-96 h-96 bg-light-brown shadow-xl"></div>
         </div>
       </div>
       <div class="text-[200px] text-white font-GoboldHollow -mb-48">CONCLUSION</div>
-      <div class="bg-yellow-800 w-[100vw] max-w-[100%] h-[25vh]"></div>
+      <div class="bg-light-brown w-[100vw] max-w-[100%] h-[25vh]"></div>
       <div class="bg-white w-[80vw] h-[130vh] ml-[auto] mr-[auto]">
         <div class="bg-white float-right w-[75%] h-[60vh] my-48 shadow-2xl">
-          <img class="absolute h-[80%] -rotate-[30deg] -mt-[9vh] -ml-[9vw]" src="images/icecream.png">
-          <div class="text-8xl font-LEMONMILK p-14 pl-[7vw] pt-32">CALCULATION</div>
-          <div class="text-3xl font-serif pl-[7vw]">test</div>
+          <img class="absolute h-[100%] -mt-[18vh] -ml-[25vw]" src="images/icecreamShadow.png">
+          <div class="text-7xl font-LEMONMILK p-14 pl-[10vw] pt-32">CALCULATION</div>
+          <div class="text-3xl font-serif pl-[10vw]">test</div>
         </div>
       </div>
       <div class="bg-white w-[70vw] h-[75vh] ml-[auto] mr-[auto] -mt-28 drop-shadow-2xl">
-        <div class="text-8xl text-center font-LEMONMILK pt-[15%]">CONCLUSION</div>
-        <div class="text-3xl text-center p-10">test</div>
+        <div class="text-8xl text-center font-LEMONMILK pt-[17%]">CONCLUSION</div>
+        <div class="text-4xl text-center p-10 px-36">We are 95% confident that the true value of proportion of students who like chocolate ice cream is between (0.369, 0.631).</div>
       </div>
       <div class="bg-white w-[100vw] max-w-[100%] h-[170vh] -mt-28">
         <div class="text-8xl text-center font-LEMONMILK pt-[25%]">ORIGINAL VIDEO</div>
         <div class="text-3xl text-center p-10">test</div>
+        <iframe class="m-auto" width="840" height="472" src="https://www.youtube.com/embed/R0MvvO6dLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <script type="module" src="/main.js"></script>

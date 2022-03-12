@@ -4,6 +4,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      "white": "#ffffff",
+      "brown": "#8c5533",
+      "light-brown": "#9d6847",
+    },
     extend: {
       fontFamily: {
         "GoboldBold":"Gobold Bold",
