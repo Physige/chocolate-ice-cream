@@ -8,7 +8,8 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>Vite App</title>
   </head>
-  <body class="bg-brown">
+  <body class="bg-brown overflow-x-hidden">
+    <div class="sticky top-0 bg-white w-24 h-24 2xl:bg-red xl:bg-orange lg:bg-yellow md:bg-green sm:bg-blue"></div>
     <div id="app">
       <img src="images/logo.svg" class="absolute left-[20vw] m-5 w-20 h-20">
       <div class="flex justify-center p-[20vh]">
@@ -27,10 +28,10 @@
         </div>
       </div>
       <div class="bg-white w-[100vw] max-w-[100%] h-[90vh] border-t-[11vh] border-light-brown mt-[30vh]">
-        <div class="text-9xl text-white font-GoboldHollow -mt-48">THE PROBLEM</div>
+        <div class="text-8xl md:text-9xl text-white font-GoboldHollow -mt-48">THE PROBLEM</div>
         <div class="flex">
-          <div class="text-4xl font-serif mt-48 p-28">My school is trying to determine the amount of students that like chocolate ice cream to see whether or not they should add chocolate ice cream to the CCA (College and Career Academy) lunch lines. (Unfortunately, my school is not actually planning on adding chocolate ice cream to the lunch lines; this was just a made-up scenario for my group project in AP Statistics)</div>
-          <video class="mt-28 pt-28 pr-28 w-[30vw] h-[30vw]" width="320" height="100" autoplay muted>
+          <div class="font-serif text-3xl text-center p-8 pt-48 2xl:mt-28 2xl:px-28 lg:text-4xl lg:mt-16 md:mt-12 md:px-16 md:text-left md:p-28">My school is trying to determine the amount of students that like chocolate ice cream to see whether or not they should add chocolate ice cream to the CCA (College and Career Academy) lunch lines. (Unfortunately, my school is not actually planning on adding chocolate ice cream to the lunch lines; this was just a made-up scenario for my group project in AP Statistics)</div>
+          <video class="mt-28 pt-28 pr-28 2xl:w-[40vw] 2xl:h-[40vw] 2xl:mt-2 xl:mt-16 xl:pr-16 md:block sm:w-[45vw] sm:h-[45vw] sm:pr-0 hidden" width="320" height="100" autoplay muted>
             <source id="video1" src="videos/CCA.mp4" type="video/mp4">
             There was an error loading the video
           </video>
