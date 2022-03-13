@@ -21,7 +21,7 @@ document.onscroll = () => {
         if (time >= 3 && !hasResetView) {
             // if it has, then make the container smaller and move the viewport back to the beginning
             hasResetView = true;
-            videoContainer.setAttribute("class", "h-[100vh]");
+            videoContainer.setAttribute("class", "h-[100vh] hidden xl:block");
             videoContainer.scrollIntoView();
         }
     }
