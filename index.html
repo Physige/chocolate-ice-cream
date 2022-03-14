@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <title>Vite App</title>
+    <title>Chocolate Ice Cream</title>
   </head>
   <body class="bg-brown overflow-x-hidden">
-    <div class="sticky top-0 bg-white w-24 h-24 2xl:bg-red xl:bg-orange lg:bg-yellow md:bg-green sm:bg-blue"></div>
     <div id="app">
       <img src="images/logo.svg" class="absolute sm:left-[3vw] 2xl:left-[20vw] m-5 w-[10vw] lg:w-20">
       <div class="flex justify-center w-[100vw] max-w-[100%] py-[20vh] sm:p-[20vh]">
@@ -24,7 +23,7 @@
             CREAM
           </div>
           <img class="absolute top-0 left-[15vw] w-[130vh] z-20 pointer-events-none 2xl:block hidden" src="images/line.svg">
-          <img class="absolute top-[10vh] right-[20vw] w-[35vw] xl:w-[50vh] pr-[2vw] z-0" src="images/icecream.png">
+          <img class="absolute top-[18vh] sm:top-[10vh] right-[20vw] w-[35vw] xl:w-[50vh] pr-[2vw] z-0" src="images/icecream.png">
         </div>
       </div>
       <div class="bg-white w-[100vw] max-w-[100%] h-[90vh] border-t-[11vh] border-light-brown sm:mt-[30vh]">
@@ -57,7 +56,7 @@
             </video>
           </div>
           <div class="text-center md:text-left font-serif text-[4vw] sm:text-2xl xl:text-3xl sm:px-14 xl:pr-72">In order to construct a confidence interval, we must make sure our sample if random. To do this, we went around during lunch and used tables as clusters and randomly selected tables to collect opinions from. The advantage of collecting our sample from the lunches is that they are representative of the whole school, containing all grade levels.</div>
-          <video class="m-auto mt-9 w-[50vw] shadow-xl md:hidden block" width="320" height="100" autoplay muted>
+          <video class="m-auto mt-[10vw] sm:mt-9 w-[37vw] sm:w-[50vw] shadow-xl md:hidden block" width="320" height="100" autoplay muted>
             <source id="video1" src="videos/Sampling.mp4" type="video/mp4">
             There was an error loading the video
           </video>
@@ -65,33 +64,33 @@
 
         <div class="bg-white text-center md:text-right lg:w-[80vw] h-[70vh] my-12 sm:my-48 lg:ml-[20vw] shadow-xl">
           <div class="text-center md:text-right text-[10vw] sm:text-7xl xl:text-8xl font-LEMONMILK sm:p-14 py-7 pt-24 lg:py-14 lg:pt-32">INDEPENDENCE</div>
-          <div class="text-center md:text-right font-serif text-[4vw] sm:text-2xl xl:text-3xl sm:px-14 xl:pr-72">Since we are sampling without replacement, we need to ensure that the sample fulfills the 10% rule of being less that 10% of the population. Since 56 is less than 10% of all students at the school, the sample is independent.</div>
-          <div class="p-16 text-[3vw] sm:text-2xl md:float-right md:text-3xl">$$\huge 56 \lt 10 \% \text{ of all students}$$</div>
+          <div class="text-center md:text-right font-serif text-[4vw] sm:text-2xl xl:text-3xl sm:px-14 xl:pl-72">Since we are sampling without replacement, we need to ensure that the sample fulfills the 10% rule of being less that 10% of the population. Since 56 is less than 10% of all students at the school, the sample is independent.</div>
+          <div class="xl:pr-16 2xl:p-16 text-[3vw] sm:text-2xl md:float-right md:text-3xl">$$\huge 56 \lt 10 \% \text{ of all students}$$</div>
         </div>
 
         <div class="bg-white lg:w-[80vw] h-[70vh] mb-12 shadow-xl">
           <div class="text-center md:text-left text-[10vw] sm:text-7xl xl:text-8xl font-LEMONMILK sm:p-14 py-7 pt-24 lg:py-14 lg:pt-32">NORMALITY</div>
           <div class="text-center md:text-left font-serif text-[4vw] sm:text-2xl xl:text-3xl sm:px-14 xl:pr-72">We need to ensure that our sample is normally distributed. We can use the Large Counts Condition to check for normality by multiplying our sample size (56) by our p-hat (0.5) to see if it’s greater than or equal to 10. NOTE: We also need to check (1 – p-hat), but (1 – 0.5) is still 0.5.</div>
-          <div class="xl:float-left text-xl md:text-3xl xl:p-16">$$\Large 56 \ \bullet \ 0.5 \ge 10$$</div>
-          <div class="xl:float-left text-xl md:text-3xl xl:p-16">$$\Large 56 \ \bullet \ (1-0.5) \ge 10$$</div>
+          <div class="xl:float-left text-xl md:text-3xl xl:pl-16 2xl:p-16">$$\Large 56 \ \bullet \ 0.5 \ge 10$$</div>
+          <div class="xl:float-left text-xl md:text-3xl xl:pl-16 2xl:p-16">$$\Large 56 \ \bullet \ (1-0.5) \ge 10$$</div>
         </div>
       </div>
       <div class="text-[10vw] text-white font-GoboldHollow -mb-[18vw] sm:-mb-48">CONCLUSION</div>
       <div class="bg-light-brown w-[100vw] max-w-[100%] h-[20vw] sm:h-[25vh]"></div>
-      <div class="sm:bg-white w-[100vw] sm:w-[80vw] h-[35vw] sm:h-[110vh] mx-[auto] shadow-xl">
-        <div class="bg-white float-right w-full 2xl:w-[75%] sm:h-[60vh] sm:my-48 shadow-2xl">
+      <div class="sm:bg-white w-[100vw] sm:w-[80vw] h-[70vw] sm:h-[110vh] mx-[auto] shadow-xl">
+        <div class="bg-white float-right w-full 2xl:w-[75%] h-[50vw] sm:h-[60vh] sm:my-48 shadow-2xl">
           <img class="absolute h-[100%] -mt-[18vh] -ml-[28em] 2xl:block hidden" src="images/icecreamShadow.png">
-          <div class="text-[9vw] md:text-7xl text-center 2xl:text-left font-LEMONMILK sm:p-14 2xl:pl-[10vw] pt- sm:pt-32">CALCULATION</div>
-          <div class="2xl:float-left text-[3vw] sm:text-[2.6vw] 2xl:text-[1.8vw] 2xl:pl-[10vw]">$$\Large 0.5 \ \pm \ 1.96 \sqrt{\frac{0.5 (1-0.5)}{56}}=(0.369, 0.631)$$</div>
+          <div class="text-[9vw] md:text-7xl text-center 2xl:text-left font-LEMONMILK sm:p-14 2xl:pl-[10vw] pt-[7vw] sm:pt-32">CALCULATION</div>
+          <div class="2xl:float-left text-[3vw] sm:text-[2.6vw] 2xl:text-[1.6vw] 2xl:pl-[10vw]">$$\Large 0.5 \ \pm \ 1.96 \sqrt{\frac{0.5 (1-0.5)}{56}}=(0.369, 0.631)$$</div>
         </div>
       </div>
-      <div class="bg-white w-[100vw] sm:w-[70vw] lg:h-[75vh] sm:h-[50vh] ml-[auto] mr-[auto] sm:-mt-28 drop-shadow-2xl">
-        <div class="text-[9vw] lg:text-8xl text-center font-LEMONMILK lg:pt-[14vw]">CONCLUSION</div>
+      <div class="bg-white w-[100vw] sm:w-[70vw] lg:h-[75vh] h-[50vw] sm:h-[50vh] ml-[auto] mr-[auto] sm:-mt-28 drop-shadow-2xl">
+        <div class="text-[9vw] lg:text-8xl text-center font-LEMONMILK pt-[7vw] lg:pt-[14vw]">CONCLUSION</div>
         <div class="text-[4vw] sm:text-3xl text-center sm:p-10 lg:px-36">We are 95% confident that the true value of proportion of students who like chocolate ice cream is between <b>(0.369, 0.631)</b>.</div>
       </div>
-      <div class="bg-white w-[100vw] max-w-[100%] h-[100vh] sm:h-[150vh] mt-[10vw] sm:-mt-28 shadow-xl">
-        <div class="text-5xl lg:text-8xl text-center font-LEMONMILK pt-[30vw] sm:pt-80">ORIGINAL VIDEO</div>
-        <div class="lg:text-3xl text-center p-10 lg:px-[30%]">This website is adapted from a video project I did for my AP Statistics class over z-intervals.</div>
+      <div class="bg-white w-[100vw] max-w-[100%] h-[100vh] sm:h-[150vh] mt-[20vw] sm:-mt-28 shadow-xl">
+        <div class="text-[9vw] lg:text-8xl text-center font-LEMONMILK pt-[30vw] sm:pt-80">ORIGINAL VIDEO</div>
+        <div class="md:text-3xl text-center p-10 lg:px-[30%]">This website is adapted from a video project I did for my AP Statistics class over z-intervals.</div>
         <iframe class="m-auto w-[80vw] lg:h-[29vw] lg:w-[50vw]" width="840" height="472" src="https://www.youtube.com/embed/R0MvvO6dLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
